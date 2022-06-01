@@ -1,0 +1,18 @@
+W/A/S/D – standard camera movement of forward/turn left/backward/turn right
+Spacebar/U – moves camera upwards
+Left Shift/J – moves camera downwards
+T – spins the middle ring in the opposite direction, will start moving ring if it has stopped
+Q – Shows off quaternion rotation on the chevrons, not part of the dialling gimmick
+P – Toggles the wormhole rendering on/off
+1-9 – Fires off a specific chevron. Nm keys also work
+Backspace/0 – returns all chevrons to the ‘off’ state. Nm keys also work
+R – Triggers the dialling sequence, locks out all other commands except camera movement
+
+The highlight of this program is the dialling sequence, it’s a similar version of the dialling sequence to the show. 
+For context, chevrons are ordered clockwise starting from the top middle, 1 to 9.
+
+Show: 2 3 4 9 8 7 1. During this, the specific symbol would align with chevron 1, 
+chevron 1 would ‘fire’ but the light would turn on at the chevron in sequence order.
+
+Program: 2 9 3 8 4 7 1. For this project, the symbol would theoretically go to the chevron in the sequences position. 
+That chevron would then fire. This makes the ring look slightly more dynamic.
